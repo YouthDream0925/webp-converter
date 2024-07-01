@@ -1,0 +1,57 @@
+{
+  "name": "webp-converter",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Convert and compress images to webp format.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "npx nodemon index.js"
+  },
+  "engines": {
+    "node": ">=18.16.0 <=21.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monte0920/image-ai-generator-backend.git"
+  },
+  "author": "Youth Dream",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monte0920/image-ai-generator-backend/issues"
+  },
+  "homepage": "https://github.com/monte0920/image-ai-generator-backend#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.7",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.2.0",
+    "https": "^1.0.0",
+    "image-thumbnail": "^1.0.15",
+    "jimp": "^0.22.12",
+    "jsdom": "^24.0.0",
+    "nocache": "^4.0.0",
+    "node-cron": "^3.0.3",
+    "node-device-detector": "^2.1.0",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.3",
+    "request": "^2.88.2",
+    "sharp": "^0.33.4",
+    "stripe": "^12.12.0",
+    "telnyx": "^1.26.0",
+    "ua-parser-js": "^1.0.37",
+    "url": "^0.11.1"
+  },
+  "devDependencies": {
+    "chai": "^5.0.3",
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^10.2.0",
+    "rewire": "^7.0.0",
+    "supertest": "^6.3.4"
+  }
+}
