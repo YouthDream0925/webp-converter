@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/monte0920/image-ai-generator-backend.git"
+    "url": "git+https://github.com/YouthDream0925/webp-converter.git"
   },
   "author": "Youth Dream",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/monte0920/image-ai-generator-backend/issues"
+    "url": "https://github.com/YouthDream0925/webp-converter/issues"
   },
-  "homepage": "https://github.com/monte0920/image-ai-generator-backend#readme",
+  "homepage": "https://github.com/YouthDream0925/webp-converter#readme",
   "dependencies": {
     "axios": "^1.6.7",
     "body-parser": "^1.20.2",
